@@ -1,6 +1,6 @@
 const userBox = document.getElementById("username");
 const passwordBox = document.getElementById("password");
-const BASE_URL = "http://localhost:5000"; // Replace with your backend 
+const BASE_URL = "https://taskify-backend-9p6b.onrender.com"; // Replace with your backend 
 const loginButton = document.getElementById("login-button");
 let accessToken = null;
 

@@ -1,7 +1,7 @@
 const userBox = document.getElementById("user-box");
 const passwordBox = document.getElementById("password-box");
 const linkButton = document.querySelector(".link-button");
-const BASE_URL = "http://localhost:5000"; // Replace with your backend URL
+const BASE_URL = "https://taskify-backend-9p6b.onrender.com"; // Replace with your backend URL
 
 addPasswordAndUsername = async () => {
   try {

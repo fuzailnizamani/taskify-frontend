@@ -1,6 +1,6 @@
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
-const BASE_URL = "http://localhost:5000"; // Replace with your backend URL
+const BASE_URL = "https://taskify-backend-9p6b.onrender.com"; // Replace with your backend URL
 import { getAccessToken } from "./login.js"; // Import from login.js
 const addtask = document.getElementById("addTask");
 const logoutButton = document.getElementById('logout-btn');
