@@ -15,6 +15,8 @@ logoutButton.addEventListener('click', async function () {
     if (response.ok) {
       localStorage.removeItem("accessToken"); // ✅ Clear token
       alert('You have been logged out.');
+      localStorage.removeItem("token");
+      sessionStorage.removeItem("token");
       window.location.href = 'login.html';
     } else {
       alert('Logout failed. Please try again.');
